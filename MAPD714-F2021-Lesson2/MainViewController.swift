@@ -10,6 +10,7 @@ class MainViewController: UIViewController
 {
     // variable declarations
     @IBOutlet weak var HelloLabel: UILabel!
+    @IBOutlet weak var OneButton: UIButton!
     
     // LifeCycle Function
     override func viewDidLoad()
