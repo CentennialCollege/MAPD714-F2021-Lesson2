@@ -21,7 +21,7 @@ class MainViewController: UIViewController
     @IBAction func OnOneButton_Pressed(_ sender: UIButton)
     {
         // ternary operator
-        HelloLabel.text = (HelloLabel.text == "Hello!") ? "Goodbye!" : "Hello!"
+        HelloLabel.text = (HelloLabel.text == "Hello, World!") ? "Goodbye!" : "Hello, World!"
         print(HelloLabel.text!)
     }
     
